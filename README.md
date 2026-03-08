@@ -4,12 +4,12 @@ This is a security script for Windows that captures a photo using the webcam whe
 
 # How it works
 
-When someone tries to log in to your computer and fails, the script *takes a photo* and saves it in a folder called "Captures".
-If someone failed the login, the next time you log in you will *receive a notification* informing you.
+When someone tries to log in your computer and fails, the script *takes a photo* and saves it on a folder called "Captures".
+If someone has failed the login, the next time you log in you would *receive a notification*.
 
-The program is based on Windows Tasks to capture specific events such as:
-  1. Event ID *4625*: Triggered on a failed login.
-  2. Event ID *4624*: Triggered on a successful login.
+The program is based on Windows Tasks to capture specific events as:
+  1.Event ID *4625* : Triggered on a failed login.
+  2.Event ID *4624* : Triggered on a successful login.
 
 # Compiling
 
@@ -23,4 +23,4 @@ The program is based on Windows Tasks to capture specific events such as:
 
 # Why I made the script
 
-I made this script because I wanted more privacy by knowing if someone tries to enter my PC. When I searched for these kinds of programs, I found that I needed a subscription for most of them, and since I couldn't see the source code, I couldn't trust where my photos were being saved.
+I made this script because I wanted more privacy knowing if someone tries to enter my PC but, when I searched for these kinds of programs, I found that I needed a payed subscription for most of them, and as I couldn't see the source code, I couldn't trust where my photos were saved.
